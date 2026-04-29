@@ -59,4 +59,4 @@ session.close()
 
 if dados:
     for item in dados:
-    st.write(f'{item.nome}: {item.descricao}')
+    st.write(f'**{item.nome}**: {item.descricao}')
